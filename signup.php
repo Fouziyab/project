@@ -206,7 +206,7 @@ if(isset($_POST['submit'])){
       <header>SIGN UP</header>
       <form action="<?php echo htmlentities($_SERVER['PHP_SELF']);?>" method="post" class="form">
         <div class="input-box">
-          <label>Full Name</label>
+          <label> Name</label>
           <input type="text" placeholder="Enter full name" name="name" required />
         </div>
 
